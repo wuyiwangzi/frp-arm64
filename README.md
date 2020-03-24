@@ -17,7 +17,7 @@ Run client
 docker run -d --name=frpc --restart=always -v /path/to/config:/etc/frp wuyiwangzi/frp-arm64 frpc -c /etc/frp/frpc.ini
 ```
 
-if you want to excute other linux cmd in the docker, you should build the docker image from docker file:
+if you want to excute other linux cmd in the docker, you should build the docker image from docker file on your arm64 machine:
 
 ```shell
 docker build . -t wuyiwangzi/frp-arm64
